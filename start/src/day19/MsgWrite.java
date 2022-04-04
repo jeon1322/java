@@ -44,7 +44,7 @@ public class MsgWrite {
 				main.frame.setVisible(true);
 				frame.dispose(); // 현재 창만 닫아야 한다.
 			}
-		});
+		}); 
 		
 		frame.add(field, BorderLayout.NORTH);
 		frame.add(sp, BorderLayout.CENTER);

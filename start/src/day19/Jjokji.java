@@ -61,6 +61,7 @@ public class Jjokji {
 				msg.field.setText(name);
 			}
 		});
+	
 		
 		frame.add(sp, BorderLayout.CENTER);
 		frame.add(sendB, BorderLayout.SOUTH);

@@ -22,12 +22,12 @@ public class PingClient01 {
 		 
 		 try {
 			
-			 socket = new Socket("192.168.0.9", 7777);
-			 
+			 socket = new Socket("172.30.1.5", 5555);
+			
 			 in = socket.getInputStream();
 			 out = socket.getOutputStream();
 			 
-			 String msg = " ";
+			 String msg = "사용자가 보내주는 신호";
 			 byte[] buff = msg.getBytes();
 			 out.write(buff); 
 		
